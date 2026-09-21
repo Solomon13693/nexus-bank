@@ -1,0 +1,32 @@
+@import "tailwindcss/theme.css" layer(theme);
+@import "tailwindcss/preflight.css" layer(base);
+@import "tailwindcss/utilities.css";
+
+@import "nativewind/theme";
+
+@theme {
+  --font-sans: "Sora-Regular";
+  --font-light: "Sora-Light";
+  --font-regular: "Sora-Regular";
+  --font-medium: "Sora-Medium";
+  --font-semibold: "Sora-SemiBold";
+  --font-bold: "Sora-Bold";
+  --font-extra-bold: "Sora-ExtraBold";
+
+  --color-brand: #EBFF78;
+  --color-accent: #C8E83F;
+  --color-brand-light: #C7E046;
+  --color-primary-light: #CBD5E1;
+  --color-background: #282C2D;
+  --color-stroke: #2A2929;
+  --color-home: #050A11;
+  --color-home-wallet: #282B20;
+  --color-home-action: #1C2018;
+  --color-home-surface: #161A1E;
+  --color-home-panel: #0A0C0F;
+  --color-home-muted: #8A9199;
+  --color-home-subtle: #6B7280;
+  --color-home-active: #2ECC71;
+  --color-home-icon: #C5CBD3;
+
+}

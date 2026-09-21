@@ -1,56 +1,36 @@
-# Welcome to your Expo app 👋
+# Nexus Bank
 
-This is an [Expo](https://expo.dev) project created with [`create-expo-app`](https://www.npmjs.com/package/create-expo-app).
+A React Native (Expo) implementation of a modern mobile banking UI — onboarding, auth, and a dark home dashboard with wallet, accounts, and transactions.
 
-## Get started
+This is a **UI concept**, not a real bank. No real accounts, payments, or financial data.
 
-1. Install dependencies
+## Design credit
 
-   ```bash
-   npm install
-   ```
+UI design by **[Azeem](https://www.figma.com/@greelogix)** at **[Gree Logix](https://www.figma.com/@greelogix)**.
 
-2. Start the app
+- Design file: [Nexus Bank — Modern Mobile Banking App UI Kit](https://www.figma.com/community/file/1676523802603262441/nexus-bank-modern-mobile-banking-app-ui-kit)
+- License: [CC BY 4.0](https://creativecommons.org/licenses/by/4.0/)
 
-   ```bash
-   npx expo start
-   ```
+This project is an independent code implementation of that Figma Community kit. All visual design credit belongs to the original author.
 
-In the output, you'll find options to open the app in a
+## Stack
 
-- [development build](https://docs.expo.dev/develop/development-builds/introduction/)
-- [Android emulator](https://docs.expo.dev/workflow/android-studio-emulator/)
-- [iOS simulator](https://docs.expo.dev/workflow/ios-simulator/)
-- [Expo Go](https://expo.dev/go), a limited sandbox for trying out app development with Expo
+- [Expo](https://expo.dev) 57 + [Expo Router](https://docs.expo.dev/router/introduction/)
+- React Native 0.86
+- NativeWind 5 / Tailwind CSS 4
+- TypeScript
 
-You can start developing by editing the files inside the **app** directory. This project uses [file-based routing](https://docs.expo.dev/router/introduction).
-
-## Get a fresh project
-
-When you're ready, run:
+## Getting started
 
 ```bash
-npm run reset-project
+npm install
+npx expo start
 ```
 
-This command will move the starter code to the **app-example** directory and create a blank **app** directory where you can start developing.
+Then open it in Expo Go, an iOS simulator, or an Android emulator.
 
-### Other setup steps
+## License
 
-- To set up ESLint for linting, run `npx expo lint`, or follow our guide on ["Using ESLint and Prettier"](https://docs.expo.dev/guides/using-eslint/)
-- If you'd like to set up unit testing, follow our guide on ["Unit Testing with Jest"](https://docs.expo.dev/develop/unit-testing/)
-- Learn more about the TypeScript setup in this template in our guide on ["Using TypeScript"](https://docs.expo.dev/guides/typescript/)
+App code in this repository is yours to use as you choose.
 
-## Learn more
-
-To learn more about developing your project with Expo, look at the following resources:
-
-- [Expo documentation](https://docs.expo.dev/): Learn fundamentals, or go into advanced topics with our [guides](https://docs.expo.dev/guides).
-- [Learn Expo tutorial](https://docs.expo.dev/tutorial/introduction/): Follow a step-by-step tutorial where you'll create a project that runs on Android, iOS, and the web.
-
-## Join the community
-
-Join our community of developers creating universal apps.
-
-- [Expo on GitHub](https://github.com/expo/expo): View our open source platform and contribute.
-- [Discord community](https://chat.expo.dev): Chat with Expo users and ask questions.
+The interface design is licensed separately under [CC BY 4.0](https://creativecommons.org/licenses/by/4.0/) by Azeem / Gree Logix. Keep the attribution above if you share or adapt the UI.
